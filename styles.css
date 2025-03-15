@@ -111,6 +111,9 @@ body{
         font-weight: 700;
         line-height: 0.941em;
         color: #000000;
+        background:linear-gradient(to bottom, #060653, #039ed1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 .inner-div-one>p{
     font-size: 30px;
