@@ -119,7 +119,7 @@ button:hover{
         line-height: 0.941em;
         color: #000000;
         background:linear-gradient(to bottom, #060653, #039ed1);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
 }
 .inner-div-one>p{
@@ -284,7 +284,7 @@ p {
     text-align: center;
     /* color: #496eb8; */
     background:linear-gradient(to bottom, #141463, #1daada);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
