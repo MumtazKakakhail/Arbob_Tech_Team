@@ -9,7 +9,7 @@
     font-family: "Roboto", sans-serif;
 }
 body{
-    background-color: #fafafa;
+    background-color: #f9fafa;
 }
 .navbar {
     display: flex;
@@ -145,7 +145,7 @@ body{
 /* cards section */
 
 .card {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -280,8 +280,8 @@ p {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    border: 2px solid rgb(181, 52, 52);
-    position: fixed;
+    border: 2px solid rgb(241, 127, 146);
+    position:fixed;
     top: -10px;
     right: -10px;
     pointer-events: none;
