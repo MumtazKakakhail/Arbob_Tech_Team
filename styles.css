@@ -152,7 +152,7 @@ button:hover{
 }
 
 
-/* cards section */
+/* cards section  */
 
 .card {
     background-color: rgb(255, 255, 255);
@@ -161,6 +161,8 @@ button:hover{
     padding: 30px;
     max-width: 400px;
     text-align: center;
+    word-spacing: 0.5rem;
+   word-wrap: break-word;
 }
 .icon-container {
     display: inline-flex;
@@ -202,15 +204,57 @@ h2 {
 }
 p {
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 20;
+   
 }
 .read-more {
-    color: #14b8a6;
+    color: #2724f3;
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
 }
+
+.read-more-1 {
+    color: #24b147;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.read-more-2 {
+    color: #20ccb8;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.read-more-3 {
+    color: #d1372c;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.read-more-4 {
+    color: #a836ca;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.read-more-5 {
+    color: #201169;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
 .read-more img {
     width: 16px;
     height: 16px;
@@ -238,7 +282,10 @@ p {
     font-weight: 700;
     line-height: 1.625em;
     text-align: center;
-    color: #496eb8;
+    /* color: #496eb8; */
+    background:linear-gradient(to bottom, #141463, #1daada);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 .services>div>h2{
@@ -298,3 +345,25 @@ p {
     box-shadow: 0 0 10px #ffffff;
     transition: background 0.3s ease, transform 0.3s ease;
   }
+
+  /* .btn>button{
+    /* margin-left: 100px; */
+    /* align-items: center;
+    justify-content: center;
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #0BAFFF 0%, #132FEE 90%);
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 21px 29px 0px rgba(248, 78.99999999999996, 26.000000000000004, 0.21568627450980393);
+    padding: 0px 31px 0px 31px;
+}
+.btn>button:hover{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #EE132F 0%, #FF780B 90%);
+
+} */ 
